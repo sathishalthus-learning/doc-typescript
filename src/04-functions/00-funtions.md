@@ -8,6 +8,8 @@
 
 ### Generic Functions
 - by declaring a type parameter in function signature
+    ```
     function firstElement<Type>(arr: Type[]): Type | undefined {
-  return arr[0];
+    return arr[0];
+    ```
 }
