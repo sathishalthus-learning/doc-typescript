@@ -43,6 +43,32 @@
 ### Type Aliases
 - if a custome type needed to define more variables
 - type definition is handy
+- extending by intersection & used.
+
+
+### Interfaces
+- similar to type, interface too used as a type
+- extension allowed, to form a new type
+- adding new props allowed
+
+### Type Assertions
+    - as keyword
+
+### Literal Types
+- possible values as types
+- can be used as regular types,
+- in declaring variables, as parameters, as return type
+- can combine with other types
+
+### null, undefined
+- uninitialized values
+
+### Enums
+
+### Less comoon primitives
+- bigint, symbol
+
+
 
 
 
