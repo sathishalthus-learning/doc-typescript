@@ -5,12 +5,14 @@ function greet(name:string){
     console.log("hello " + name);
 }
 greet('javascript');
+
 // return type annotation
 function welcome(name:string):string{
-    return "welcome "+name;
+    return "welcome "+ name;
 }
 let message = welcome("typescript");
 console.log(message);
+
 // function return promises
 async function getFavoriteNumber(): Promise<number> {
   return 26;

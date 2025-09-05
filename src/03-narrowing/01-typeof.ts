@@ -1,6 +1,6 @@
 // typeof
 
-function printAll(strs: string | string[] | null) {
+function printingAll(strs: string | string[] ) {
   if (typeof strs === "object") {
     for (const s of strs) {
       console.log(s);
@@ -12,4 +12,4 @@ function printAll(strs: string | string[] | null) {
   }
 }
 
-printAll('anything');
+printingAll('anything');
