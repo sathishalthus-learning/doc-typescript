@@ -1,5 +1,6 @@
 
 // object type
+// js value with properties
 
 // The parameter's type annotation is an object type
 function printCoords(pt: { x: number; y: number }) {
