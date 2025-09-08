@@ -28,3 +28,14 @@
     - static blocks - 
 ## Generic Classes
     -
+## Parameter Properties
+    - created with contructor, by adding access modifier inside the constructor("")
+## Class Expressions
+    - similar to class definitions, execept assighment and no name needed.
+## Constructor Signatures
+    - 
+## Abstract classes
+    - class me be abstract
+    - method, field dosnt have implementation
+    - must exist within class, cannot instantiated
+## Relationship bw classes
