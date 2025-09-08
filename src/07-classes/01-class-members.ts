@@ -1,13 +1,22 @@
 // class members
 
-// empty class
-class Sample{}
-// fields
-class Sample2{
-x:number;
-y:string;
+class Sample { 
+    // fields
+    x: number= 0; 
+    y: string= "0";
+
+    // readonly pr
+    readonly name: string = "world";
+
+    // constructor
+    constructor(){
+        // super 
+        
+        this.name="hello";
+
+    }
 }
-const s2 = new Sample2();
+const s2 = new Sample();
 s2.x = 123;
 s2.y = 'sample';
 
